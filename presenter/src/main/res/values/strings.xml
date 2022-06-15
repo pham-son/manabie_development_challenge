@@ -1,0 +1,26 @@
+<resources>
+    <!-- Title -->
+    <string name="app_name">Todo Application</string>
+    <string name="plus_todo">Plus</string>
+    <string name="title_home">Task All</string>
+    <string name="title_complete">Task Complete</string>
+    <string name="title_in_complete">Task In Complete</string>
+
+    <!-- Common -->
+    <string name="common_detail_task">Detail Task</string>
+    <string name="common_create_task">Create Task</string>
+    <string name="common_delete_task">Delete Task</string>
+    <string name="common_description_task">Do you want to delete task?</string>
+    <string name="common_not_empty">Please enter not empty!</string>
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Cancel</string>
+
+    <!-- Hint -->
+    <string name="hint_description">Description</string>
+    <string name="hint_title">Title</string>
+
+    <!-- Bottom Navigation title -->
+    <string name="bottom_title_all_task">Task All </string>
+    <string name="bottom_title_complete_all_task">Task Complete</string>
+    <string name="bottom_title_in_complete_all_task">Task In Complete</string>
+</resources>

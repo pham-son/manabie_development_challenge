@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_todo_all_task">
+
+    <fragment
+        android:id="@+id/navigation_todo_all_task"
+        android:name="com.mobile.todoapplication.ui.task_all_todo.TodoAllTaskFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_todo_all_task" />
+
+    <fragment
+        android:id="@+id/navigation_todo_complete_task"
+        android:name="com.mobile.todoapplication.ui.task_complete_todo.TodoCompleteTaskFragment"
+        android:label="@string/title_complete"
+        tools:layout="@layout/fragment_todo_complete" />
+
+    <fragment
+        android:id="@+id/navigation_todo_in_complete_task"
+        android:name="com.mobile.todoapplication.ui.task_in_complete_todo.TodoInCompleteTaskFragment"
+        android:label="@string/title_in_complete"
+        tools:layout="@layout/fragment_todo_incomplete" />
+</navigation>

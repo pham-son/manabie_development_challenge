@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_todo_all_task"
+        android:icon="@drawable/task_full"
+        android:title="@string/bottom_title_all_task"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/navigation_todo_complete_task"
+        android:icon="@drawable/task_complete"
+        android:title="@string/bottom_title_complete_all_task"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/navigation_todo_in_complete_task"
+        android:icon="@drawable/task_incomplete"
+        android:title="@string/bottom_title_in_complete_all_task"
+        app:showAsAction="collapseActionView"/>
+
+</menu>
