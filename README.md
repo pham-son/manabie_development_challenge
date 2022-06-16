@@ -19,8 +19,21 @@
  - Open project with android studio
  - Build app
 
-# Landing Screen with data from Database
+# Landing Screen with data from Database and data sort by create date, save in sqlite:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/32203726/173877679-268e79f7-13de-4353-93bd-d8c16ad283f5.png" width="200" height = "400"/>
+</p>
+
+
+# Long click into item show popup delete data:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/32203726/174090715-49ef69be-a648-475f-887c-eea51fd31887.png" width="200" height = "400"/>
+</p>
+
+# Click button plus add data: 
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/32203726/174091598-fc8ad0bb-07fd-49a4-a7bb-72468a4a259b.png" width="200" height = "400"/>
 </p>
