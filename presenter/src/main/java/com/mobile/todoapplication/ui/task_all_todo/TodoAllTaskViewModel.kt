@@ -16,7 +16,7 @@ class TodoAllTaskViewModel(
     private val mapper: Mapper<TodoEntity, TodoSources>
 ) : BaseViewModel() {
     init {
-//        fetchData()
+        fetchData()
     }
 
     fun insert(todoSources: TodoSources) {
@@ -49,7 +49,7 @@ class TodoAllTaskViewModel(
         addDisposable(update)
     }
 
-    fun fetchData() {
+    private fun fetchData() {
         val disposable = getUserCase.getTodos()
             .concatMap { mapper.Flowable(it) }
             .doOnSubscribe { getLoading().postValue(true) }

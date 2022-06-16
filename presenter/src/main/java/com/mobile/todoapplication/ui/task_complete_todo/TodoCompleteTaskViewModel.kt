@@ -51,7 +51,7 @@ class TodoCompleteTaskViewModel(
         addDisposable(update)
     }
 
-    fun fetchData() {
+    private fun fetchData() {
         val disposable = getUserCase.getTodos()
             .concatMap { mapper.Flowable(it) }
             .doOnSubscribe { getLoading().postValue(true) }
